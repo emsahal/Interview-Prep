@@ -5,7 +5,6 @@ int main()
 {
     string palindrome = "LEVEL";
     bool isPalindrome = true;
-
     for (int i = 0; i < palindrome.length() / 2; i++)
     {
         if (palindrome[i] != palindrome[palindrome.length() - 1 - i])
@@ -14,7 +13,6 @@ int main()
             break;
         }
     }
-
     if (isPalindrome)
     {
         cout << palindrome << " is Palindrome.";
